@@ -39,6 +39,23 @@ Fonctionnalité : L'application doit fonctionner comme décrit dans les consigne
 Sécurité : Les mots de passe doivent être traités de manière sécurisée.
 Qualité du code : Le code doit être clair, bien organisé, et suivre les bonnes pratiques de développement. Aucun crash bloquant ne doit arriver.
 
+
+
+
+
+
+
+
+
+Temps passé : 
+
+début le 09/03/2024 à 14h00
+fin le 09/03/2024 à 22h00
+serveur nodeJS et API : entre 1h30 et 2h
+Projet flutter : entre 3 et 4h
+durée d'installation des logiciel : environ 2h
+
+
 Lancer le Serveur : 
 
 1 : ouvrir l'invite de commande
