@@ -45,9 +45,9 @@ COMMANDES POSTMAN :
 
 Créer un compte :
 
-type : POST
-URL : http://localhost:3000/api/utilisateurs/inscription
-Body : 
+/type : POST
+/URL : http://localhost:3000/api/utilisateurs/inscription
+/Body : 
 {
     "nom": "",
     "email": "",
@@ -56,9 +56,9 @@ Body :
 
 Se connecter :
 
-type : POST
-URL : http://localhost:3000/api/utilisateurs/connexion
-Body : 
+/type : POST
+/URL : http://localhost:3000/api/utilisateurs/connexion
+/Body : 
 {
     "email": "",
     "motDePasse": ""
@@ -66,9 +66,9 @@ Body :
 
 Supprimer un compte : 
 
-Type : DELETE
-URL : http://localhost:3000/api/utilisateurs/suppression
-Body : 
+/Type : DELETE
+/URL : http://localhost:3000/api/utilisateurs/suppression
+/Body : 
 {
     "nom": "Rubens Guzman",
     "motDePasse": "password123"
