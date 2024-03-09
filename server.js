@@ -33,7 +33,7 @@ app.delete('/api/utilisateurs/suppression', (req, res) => {
     if (utilisateur) {
         const nouveauxUtilisateurs = utilisateurs.filter(u => u !== utilisateur);
         fs.writeFileSync(utilisateursJson, JSON.stringify(nouveauxUtilisateurs));
-        res.json({ message: 'Compte utilisateur supprimé avec succès' });
+        res.json({ message: 'Compte supprimé' });
     } else {
         res.status(401).json({ message: 'Nom d\'utilisateur ou mot de passe incorrects' });
     }
