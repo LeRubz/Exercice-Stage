@@ -39,6 +39,13 @@ Fonctionnalité : L'application doit fonctionner comme décrit dans les consigne
 Sécurité : Les mots de passe doivent être traités de manière sécurisée.
 Qualité du code : Le code doit être clair, bien organisé, et suivre les bonnes pratiques de développement. Aucun crash bloquant ne doit arriver.
 
+Lancer le Serveur : 
+
+1 : ouvrir l'invite de commande
+
+2 : aller dans le fichier ou est le fichier js du serveur (ex: cd desktop/exercice stage)
+
+3 : lancer le esrveur avec la commande : node nom_du_serveur (ex : server.js)
 
 
 COMMANDES POSTMAN :
