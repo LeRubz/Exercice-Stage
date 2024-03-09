@@ -38,3 +38,38 @@ Critères d'évaluation :
 Fonctionnalité : L'application doit fonctionner comme décrit dans les consignes.
 Sécurité : Les mots de passe doivent être traités de manière sécurisée.
 Qualité du code : Le code doit être clair, bien organisé, et suivre les bonnes pratiques de développement. Aucun crash bloquant ne doit arriver.
+
+
+
+COMMANDES POSTMAN :
+
+Créer un compte :
+
+type : POST
+URL : http://localhost:3000/api/utilisateurs/inscription
+Body : 
+{
+    "nom": "",
+    "email": "",
+    "motDePasse": ""
+}
+
+Se connecter :
+
+type : POST
+URL : http://localhost:3000/api/utilisateurs/connexion
+Body : 
+{
+    "email": "",
+    "motDePasse": ""
+}
+
+Supprimer un compte : 
+
+Type : DELETE
+URL : http://localhost:3000/api/utilisateurs/suppression
+Body : 
+{
+    "nom": "Rubens Guzman",
+    "motDePasse": "password123"
+}
