@@ -94,6 +94,6 @@ Supprimer un compte :
 /URL : http://localhost:3000/api/utilisateurs/suppression
 /Body : 
 {
-    "nom": "Rubens Guzman",
-    "motDePasse": "password123"
+    "nom": "",
+    "motDePasse": ""
 }
