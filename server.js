@@ -1,9 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const fs = require('fs');
 const utilisateursJson = 'utilisateurs.json';
 
 app.use(express.json());
+
+app.use(cors());
 
 
 app.post('/api/utilisateurs/inscription', (req, res) => {
